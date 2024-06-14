@@ -53,6 +53,7 @@ tc@box:/$ sudo ip a a 192.168.1.12/24 dev eth0
 
 ```
 ## Compute 1:
+### Create bridges, networks, vlans and portgroups like compute 2
 ### Run TC1 and TC3 on compute1
 ```sh
 virsh list
