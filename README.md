@@ -2,6 +2,18 @@
 
 ## Scenario:
 ![Lab_OVS](./lab_ovs.png)
+## Pre Reqs:
+create 2 vm and connect them together on virtual box,
+Then on all nodes :
+   ```sh
+sudo apt install qemu-kvm libvirt-daemon libvirt-clients
+sudo apt install virtinst
+sudo apt install openvswitch-switch openvswitch-common
+sudo apt install bridge-utils
+sudo apt install libvirt-daemon-system
+```
+Next copy other files of the repo on all nodes using scp.
+
 ## Compute 2:
 ### Pre Reqs:
 
